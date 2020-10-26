@@ -12,6 +12,9 @@ public class PlayerMovement : MonoBehaviour
     public Transform groundCheckRight;
 
     public Rigidbody2D rb;
+    public Animator animator;
+    public SpriteRenderer spriteRenderer;
+
     private Vector3 velocity = Vector3.zero;
 
 
@@ -27,6 +30,14 @@ public class PlayerMovement : MonoBehaviour
         }
 
         MovePlayer(horizontalMovement);
+
+        Flip(rb.velocity.x);
+
+        // animator.SetFloat() prend en paramètre 1 l'id de l'animator et en paramètre 2 la vélocité de l'axe x du rigidbody. Le problème c'est que si on va à gauche, la valeur est négative. Mathf.Abs() va rend cette valeur Absolue et donc toujours positive.
+        float characterVelocity = Mathf.Abs(rb.velocity.x);
+        animator.SetFloat("Speed", characterVelocity);
+
+
     }
 
     void MovePlayer(float _horizontalMovement)
@@ -38,6 +49,18 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.AddForce(new Vector2(0f, jumpForce));
             isJumping = false;
+        }
+    }
+
+    void Flip(float _velocity)
+    {
+        if (_velocity > 0.1f)
+        {
+            spriteRenderer.flipX = false;
+        }
+        else if (_velocity < -0.1f)
+        {
+            spriteRenderer.flipX = true;
         }
     }
 
