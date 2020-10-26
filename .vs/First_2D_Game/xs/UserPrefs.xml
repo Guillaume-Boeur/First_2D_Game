@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{A09B0A19-056E-5AF9-C60A-F9B9137C2249}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerMovement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CameraFollow.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlayerMovement.cs" Line="9" Column="12" />
+      <File FileName="Assets/Scripts/PlayerMovement.cs" Line="61" Column="31" />
+      <File FileName="Assets/Scripts/CameraFollow.cs" Line="14" Column="139" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -9,7 +10,7 @@
           <Node name="First_2D_Game" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="PlayerMovement.cs" selected="True" />
+                <Node name="CameraFollow.cs" selected="True" />
               </Node>
             </Node>
           </Node>
