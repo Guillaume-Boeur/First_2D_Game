@@ -1,17 +1,17 @@
 ﻿<Properties StartupConfiguration="{A09B0A19-056E-5AF9-C60A-F9B9137C2249}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CameraFollow.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/WeakSpot.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlayerMovement.cs" Line="61" Column="31" />
+      <File FileName="Assets/Scripts/PlayerMovement.cs" Line="59" Column="13" />
       <File FileName="Assets/Scripts/CameraFollow.cs" Line="14" Column="139" />
+      <File FileName="Assets/EnemyPatrol.cs" Line="28" Column="46" />
+      <File FileName="Assets/WeakSpot.cs" Line="12" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="First_2D_Game" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="CameraFollow.cs" selected="True" />
-              </Node>
+              <Node name="Scripts" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -20,7 +20,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a45f5f12-5405-4da6-8985-1fd0cab87d60" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7c5b0284-4a72-499e-b736-5ec4f8e68b5b" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
