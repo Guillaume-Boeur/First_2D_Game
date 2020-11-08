@@ -1,13 +1,13 @@
 ﻿<Properties StartupConfiguration="{A09B0A19-056E-5AF9-C60A-F9B9137C2249}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Inventory.cs">
     <Files>
-      <File FileName="Assets/Scripts/Inventory.cs" Line="25" Column="53" />
-      <File FileName="Assets/Scripts/PickUpObject.cs" />
+      <File FileName="Assets/Scripts/Inventory.cs" Line="9" Column="5" />
+      <File FileName="Assets/Scripts/PickUpObject.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="407f1ee5-b013-461e-9d8a-77624a0e83a7" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d3ec0eb9-2443-466b-8d5a-243246a3e3ed" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

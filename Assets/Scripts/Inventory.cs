@@ -1,10 +1,12 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.UI; // use with Text
+using TMPro; // use with TextMeshPro
 
 public class Inventory : MonoBehaviour
 {
     public int coinsCount;
-    public Text coinsCountText;
+    public TextMeshProUGUI coinsCountText;
+  //public Text coinsCountText; before using a responsive TextMeshPro
 
     public static Inventory instance; // Singleton
 
@@ -23,5 +25,6 @@ public class Inventory : MonoBehaviour
     {
         coinsCount += count;
         coinsCountText.text = coinsCount.ToString();
+
     }
 }
