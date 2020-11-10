@@ -1,13 +1,14 @@
 ﻿<Properties StartupConfiguration="{A09B0A19-056E-5AF9-C60A-F9B9137C2249}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Inventory.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LoadSpecificScene.cs">
     <Files>
-      <File FileName="Assets/Scripts/Inventory.cs" Line="9" Column="5" />
-      <File FileName="Assets/Scripts/PickUpObject.cs" Line="1" Column="1" />
+      <File FileName="Assets/LoadSpecificScene.cs" Line="12" Column="93" />
+      <File FileName="Assets/DontDestroyOnLoadScene.cs" Line="11" Column="40" />
+      <File FileName="Assets/Scripts/PlayerSpawn.cs" Line="7" Column="92" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d3ec0eb9-2443-466b-8d5a-243246a3e3ed" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5328c92a-5e24-444a-a999-6509e75699cf" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
